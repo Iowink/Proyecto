@@ -1,5 +1,5 @@
 <?php
-    $conexion = mysqli_connect("localhost","root","login_egistro_db");
+    $conexion = mysqli_connect("localhost","root","login_registro_db");
     if($conexion){
         echo 'conectado exitosamente';
     }else{
